@@ -27,17 +27,17 @@ Whether you are downloading the latest package directly or checking for in-app u
 
 ## 🚀 Latest Releases
 
-| Platform | Latest Version | Package / Manifest | Direct Link | Status |
-| :--- | :---: | :--- | :---: | :---: |
-| **Android** | `v1.0.1` | `miqat-v1.0.1.apk` | [⬇️ Download APK](./android/miqat-v1.0.1.apk) | 🟢 Stable |
-| **iOS** | `v1.0.1` | `manifest.plist` | [📋 View Manifest](./ios/manifest.plist) | 🟡 Setup |
+| Platform    | Latest Version | Package / Manifest |                                      Direct Link                                      |                  Status                  |
+| :---------- | :------------: | :----------------- | :-----------------------------------------------------------------------------------: | :--------------------------------------: | -------- | --- |
+| **Android** |    `v1.0.0`    | `miqat-v1.0.0.apk` | [⬇️ Download APK](https://github.com/mohammednabi/miqat-releases/releases/tag/v1.0.0) |                🟢 Stable                 |
+| <!--        |    **iOS**     | `v1.0.1`           |                                   `manifest.plist`                                    | [📋 View Manifest](./ios/manifest.plist) | 🟡 Setup | --> |
 
 > [!TIP]
 > Always download releases directly from this repository or verified distribution channels to ensure authenticity and file integrity.
 
 ---
 
-## 📂 Repository Structure
+<!-- ## 📂 Repository Structure
 
 ```text
 miqat-releases/
@@ -48,22 +48,22 @@ miqat-releases/
 ├── assets/
 │   └── logo.png               # Official branding and icons
 └── README.md                  # Release documentation & download guides
-```
+``` -->
 
----
+<!-- --- -->
 
 ## 📲 Installation Instructions
 
 ### 🤖 Android (.apk)
 
-1. **Download the APK**: Download the latest build from [`android/miqat-v1.0.1.apk`](./android/miqat-v1.0.1.apk).
+1. **Download the APK**: Download the latest build from [`android/miqat-v1.0.0.apk`](https://github.com/mohammednabi/miqat-releases/releases/tag/v1.0.0).
 2. **Allow Installation from Unknown Sources**:
    - On Android 8.0+: When prompted by your browser or file manager, tap **Settings** and toggle **Allow from this source**.
    - On older versions: Go to **Settings > Security > Unknown Sources** and enable it.
 3. **Install**: Open the downloaded `.apk` file and tap **Install**.
 4. **Launch**: Once installation finishes, tap **Open** to start using Miqat.
 
----
+<!-- ---
 
 ### 🍏 iOS (OTA / Manifest)
 
@@ -73,16 +73,17 @@ For enterprise or ad-hoc test distribution:
    ```text
    itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/<YOUR-USERNAME>/miqat-releases/main/ios/manifest.plist
    ```
-2. **Trust Enterprise Profile** *(if prompted)*:
+2. **Trust Enterprise Profile** _(if prompted)_:
    - Go to **Settings > General > VPN & Device Management**.
    - Select the Enterprise/Developer profile for Miqat and tap **Trust**.
-3. **Launch the App**: Open Miqat from your home screen.
+3. **Launch the App**: Open Miqat from your home screen. -->
 
 ---
 
 ## 🔄 Release Notes & Changelog
 
-### `v1.0.1` (Current Stable)
+### `v1.0.0` (Current Stable)
+
 - ✨ Initial public release build.
 - ⚡ Core functionality, UI enhancements, and performance optimizations.
 - 🛠️ In-app update check support.
@@ -94,8 +95,8 @@ For enterprise or ad-hoc test distribution:
 
 We recommend verifying package integrity before installation:
 
-* **Official Source**: Verify you are downloading from the verified repository.
-* **Permissions**: Miqat requests only necessary permissions required for app functionality (e.g. notifications, location).
+- **Official Source**: Verify you are downloading from the verified repository.
+- **Permissions**: Miqat requests only necessary permissions required for app functionality (e.g. notifications, location).
 
 ---
 
