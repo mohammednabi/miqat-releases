@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="#-latest-release"><img src="https://img.shields.io/badge/Latest%20Version-v1.0.1-0d9488?style=for-the-badge&logo=rocket" alt="Latest Version" /></a>
-  <a href="#-android-installation"><img src="https://img.shields.io/badge/Platform-Android-34D399?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>
-  <a href="#-ios-installation"><img src="https://img.shields.io/badge/Platform-iOS-0ea5e9?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" /></a>
+  <a href="#-latest-releases"><img src="https://img.shields.io/badge/Latest%20Version-v1.0.0-0d9488?style=for-the-badge&logo=rocket" alt="Latest Version" /></a>
+  <a href="#-android-apk"><img src="https://img.shields.io/badge/Platform-Android-34D399?style=for-the-badge&logo=android&logoColor=white" alt="Android" /></a>
+  <img src="https://img.shields.io/badge/Platform-iOS%20(Coming%20Soon)-0ea5e9?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
   <img src="https://img.shields.io/badge/Status-Active-22c55e?style=for-the-badge" alt="Status Active" />
 </p>
 
@@ -27,10 +27,15 @@ Whether you are downloading the latest package directly or checking for in-app u
 
 ## 🚀 Latest Releases
 
-| Platform    | Latest Version | Package / Manifest |                                      Direct Link                                      |                  Status                  |
-| :---------- | :------------: | :----------------- | :-----------------------------------------------------------------------------------: | :--------------------------------------: | -------- | --- |
-| **Android** |    `v1.0.0`    | `miqat-v1.0.0.apk` | [⬇️ Download APK](https://github.com/mohammednabi/miqat-releases/releases/tag/v1.0.0) |                🟢 Stable                 |
-| <!--        |    **iOS**     | `v1.0.1`           |                                   `manifest.plist`                                    | [📋 View Manifest](./ios/manifest.plist) | 🟡 Setup | --> |
+| Platform | Latest Version | Package / Asset | Direct Link | Status |
+| :--- | :---: | :--- | :---: | :---: |
+| **Android** | `v1.0.0` | `miqat-v1.0.0.apk` | [⬇️ Download APK](https://github.com/mohammednabi/miqat-releases/releases/tag/v1.0.0) | 🟢 Stable |
+| **iOS** | — | *In Development* | ⏳ *Coming Soon* | 🟡 Planned |
+
+<!--
+Uncomment when iOS release is ready:
+| **iOS** | `v1.0.0` | `manifest.plist` | [📋 View Manifest](./ios/manifest.plist) | 🟡 Setup |
+-->
 
 > [!TIP]
 > Always download releases directly from this repository or verified distribution channels to ensure authenticity and file integrity.
